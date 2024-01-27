@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_8ymmkL06Ee6p6tMP83brLA" name="villes_input" dataPackage="_8ymmkb06Ee6p6tMP83brLA" Server="Localhost 127.0.0.1" FilePath="C:/workspace/TP1/dataset-tp1/villes_input.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8ymmkb06Ee6p6tMP83brLA" name="default" dataManager="_8ymmkL06Ee6p6tMP83brLA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8ymmkr06Ee6p6tMP83brLA" id="_txWN4L06Ee6p6tMP83brLA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8ymmk706Ee6p6tMP83brLA" label="ville" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

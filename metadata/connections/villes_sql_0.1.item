@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_IUiwoLz3Ee6RbL3ntT--Lw" name="villes_sql" id="_BzF10Lz3Ee6RbL3ntT--Lw" label="villes_sql" dataPackage="_IVSXgLz3Ee6RbL3ntT--Lw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://:3307/talend_admin?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3307" Username="root" Password="enc:system.encryption.key.v1:6iYkHCbxRDVOmZiAzT20CgOAxyBa7daO6Ymswa/L9npa9H6x7DQ=" ServerName="" DatasourceName="" FileFieldName="" SID="talend_admin" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_IUiwobz3Ee6RbL3ntT--Lw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_IUxaILz3Ee6RbL3ntT--Lw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_IUxaIbz3Ee6RbL3ntT--Lw" tag="Status" value=""/>
+    <taggedValue xmi:id="_IUxaIrz3Ee6RbL3ntT--Lw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_IUxaI7z3Ee6RbL3ntT--Lw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_IUxaJLz3Ee6RbL3ntT--Lw" tag="Description" value=""/>
+    <taggedValue xmi:id="_IUxaJbz3Ee6RbL3ntT--Lw" tag="Author" value=""/>
+    <taggedValue xmi:id="_IUxaJrz3Ee6RbL3ntT--Lw" tag="otherParameter"/>
+    <taggedValue xmi:id="_IVB40Lz3Ee6RbL3ntT--Lw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_IVB40bz3Ee6RbL3ntT--Lw" tag="DB ProductVersion" value="8.3.0"/>
+    <taggedValue xmi:id="_IVB40rz3Ee6RbL3ntT--Lw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_IUiworz3Ee6RbL3ntT--Lw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_IVSXgLz3Ee6RbL3ntT--Lw" name="talend_admin" dataManager="_IUiwoLz3Ee6RbL3ntT--Lw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_W7RJcLz3Ee6RbL3ntT--Lw" name="villes" id="_W7QiYLz3Ee6RbL3ntT--Lw" label="villes" tableType="TABLE">
+      <taggedValue xmi:id="_W7RJcbz3Ee6RbL3ntT--Lw" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_W7RJcrz3Ee6RbL3ntT--Lw" name="CP" label="CP" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_W7RJc7z3Ee6RbL3ntT--Lw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_W7RJdLz3Ee6RbL3ntT--Lw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_W7RJdbz3Ee6RbL3ntT--Lw" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_W7RJdrz3Ee6RbL3ntT--Lw" name="Ville" label="Ville" length="17" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_W7RJd7z3Ee6RbL3ntT--Lw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_W7RJeLz3Ee6RbL3ntT--Lw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_W7RJebz3Ee6RbL3ntT--Lw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

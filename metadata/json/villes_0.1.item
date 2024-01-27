@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_wd92cbirEe6wibZaYCAMAQ" name="villes" dataPackage="_wd92dbirEe6wibZaYCAMAQ" JSONFilePath="C:/workspace/TP1/dataset-tp1/Villes_CP.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_wd92crirEe6wibZaYCAMAQ" LimitBoucle="50" AbsoluteXPathQuery="$.villes[*]">
+      <schemaTargets xmi:id="_wd92c7irEe6wibZaYCAMAQ" RelativeXPathQuery="CP" TagName="CP"/>
+      <schemaTargets xmi:id="_wd92dLirEe6wibZaYCAMAQ" RelativeXPathQuery="Ville" TagName="Ville"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_wd92dbirEe6wibZaYCAMAQ" name="default" dataManager="_wd92cbirEe6wibZaYCAMAQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wd92drirEe6wibZaYCAMAQ" id="_pqc7QLirEe6wibZaYCAMAQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wd92d7irEe6wibZaYCAMAQ" label="CP" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wd92eLirEe6wibZaYCAMAQ" label="Ville" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_kNHboLyXEe6JE_evKt4_Fg" name="csv_delimited_1" dataPackage="_kNHbobyXEe6JE_evKt4_Fg" Server="Localhost 127.0.0.1" FilePath="C:/workspace/TP1/dataset-tp1/InfoSalarie_Updated.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kNHbobyXEe6JE_evKt4_Fg" name="default" dataManager="_kNHboLyXEe6JE_evKt4_Fg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kNHboryXEe6JE_evKt4_Fg" id="_3NYdALyWEe6JE_evKt4_Fg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNHbo7yXEe6JE_evKt4_Fg" label="CODE_DU_SALARIE" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNHbpLyXEe6JE_evKt4_Fg" label="NB_ENFANTS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNHbpbyXEe6JE_evKt4_Fg" label="SERVICE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNHbpryXEe6JE_evKt4_Fg" label="SALAIRE_MENSUEL" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
